@@ -5,12 +5,12 @@ import { NAV_LINKS } from '@/constants'
 import Button from './Button'
 const Navbar = () => {
   return (
-    <nav className='border border-red-400  relative py-5 padding-container z-30 flexBetween max-container'>
+    <nav className=' relative py-5 padding-container z-30 flexBetween max-container'>
 
       <Link href={"/"}>
       <Image src="/hilink-logo.svg" alt='Logo' width={74} height={29} />
       </Link>
-      <ul className=' hidden lg:flex border border-green-300 h-full gap-12 '>
+      <ul className=' hidden lg:flex  h-full gap-12 '>
 {/* nav items */}
 {
   NAV_LINKS.map((links)=>(
@@ -19,7 +19,7 @@ const Navbar = () => {
 }
       </ul>
 {/* Button */}
-      <div className='border border-violet-400 hidden lg:flex '>
+      <div className=' hidden lg:flex '>
 <Button  type="button" title='Login' icon="/user.svg" variant="btn_dark_green" />
       </div>
 
