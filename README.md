@@ -3,3 +3,4 @@
 - Build Navbar
 - Build Hero Section
 - Build Camp Section
+- Build Guid Section
