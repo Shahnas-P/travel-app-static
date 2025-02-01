@@ -2,9 +2,9 @@ import React from 'react'
 
 const GetApp = () => {
   return (
-    <div>
+    <section>
       GetApp
-    </div>
+    </section>
   )
 }
 
