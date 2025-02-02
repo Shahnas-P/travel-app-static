@@ -5,3 +5,4 @@
 - Build Camp Section
 - Build Guid Section
 - Build Feature Section
+- Build Footer 
